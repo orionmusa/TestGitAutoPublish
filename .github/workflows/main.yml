@@ -31,7 +31,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: orionmusa/TestPublish  # Hedef repo
-        token: ${{ secrets.GITHUB_TOKEN }} # Diğer repo için erişim tokenı
+        token: ${{ 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 }} # Diğer repo için erişim tokenı
         path: publish-repo
 
     - name: Copy publish files
