@@ -18,7 +18,7 @@ namespace TestGitAutoPublish.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecasts")]
+        [HttpGet(Name = "GetWeatherForecastss")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
